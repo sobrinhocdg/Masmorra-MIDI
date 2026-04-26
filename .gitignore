@@ -1,43 +1,40 @@
 ```
-# MIDI files
-*.mid
-
-# Python compiled files
+# Compiled Python files
 *.pyc
 __pycache__/
 
-# Environment files
+# MIDI files (if they are generated/computed)
+*.mid
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment variables
 .env
 .env.local
 *.env.*
 
-# Logs
-*.log
-
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-*.tmp
 
-# System files
-.DS_Store
-Thumbs.db
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Build artifacts
+dist/
+build/
+target/
 
 # Coverage reports
 coverage/
 htmlcov/
 .coverage
 
-# Dependency directories
-node_modules/
-venv/
-.venv/
+# Python cache
 .mypy_cache/
 .pytest_cache/
-dist/
-build/
-target/
-.gradle/
 ```
