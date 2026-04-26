@@ -1,19 +1,16 @@
 ```
-# Compiled and binary files
+# Compiled Python files
 *.pyc
 __pycache__/
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+# MIDI files (if they are generated/computed)
+*.mid
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
 
-# Environment
+# Environment variables
 .env
 .env.local
 *.env.*
@@ -22,12 +19,17 @@ node_modules/
 .vscode/
 .idea/
 
+# Dependencies
+.venv/
+venv/
+node_modules/
+
 # Build artifacts
 dist/
 build/
 target/
 
-# Coverage
+# Coverage reports
 coverage/
 htmlcov/
 .coverage
@@ -35,8 +37,4 @@ htmlcov/
 # Python cache
 .mypy_cache/
 .pytest_cache/
-
-# System files
-.DS_Store
-Thumbs.db
 ```
