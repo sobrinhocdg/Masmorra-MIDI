@@ -1,36 +1,40 @@
-```
-# MIDI files
-*.mid
-
-# Python
-__pycache__/
+```python
+# Compiled Python files
 *.pyc
-*.pyo
-*.pyd
-.Python
-env/
+__pycache__/
+
+# Virtual environments
 venv/
 .venv/
-.ENV
-pip-log.txt
-pip-delete-this-directory.txt
-.pytest_cache/
-.coverage
-htmlcov/
-.tox/
-.coverage.*
-.nosetests.xml
-coverage.xml
-*.cover
+.env
+.env.local
+*.env.*
+
+# Logs
 *.log
-*.pot
-*.po
-*~
-.pydevproject
+
+# Temporary files
+*.tmp
+*.swp
+
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
+
+# Build artifacts
+dist/
+build/
+target/
+
+# Dependencies
+node_modules/
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+.coverage
+
+# System files
 .DS_Store
 Thumbs.db
 ```
