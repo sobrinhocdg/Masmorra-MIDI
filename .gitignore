@@ -1,11 +1,12 @@
-```python
-# Compiled Python files
+```
+# MIDI files
+*.mid
+
+# Python compiled files
 *.pyc
 __pycache__/
 
-# Virtual environments
-venv/
-.venv/
+# Environment files
 .env
 .env.local
 *.env.*
@@ -13,28 +14,30 @@ venv/
 # Logs
 *.log
 
-# Temporary files
-*.tmp
-*.swp
-
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
-
-# Build artifacts
-dist/
-build/
-target/
-
-# Dependencies
-node_modules/
-.mypy_cache/
-.pytest_cache/
-coverage/
-htmlcov/
-.coverage
+*.swp
+*.swo
+*.tmp
 
 # System files
 .DS_Store
 Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Dependency directories
+node_modules/
+venv/
+.venv/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
 ```
